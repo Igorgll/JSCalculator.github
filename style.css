@@ -1,0 +1,54 @@
+body {
+   margin: 0;
+   padding: 0;
+
+   background-color: rgb(107, 159, 165);
+}
+
+/*To access the class we insert a dot (.) */
+
+.button {
+   background-color: rgba(107, 159, 148, 0.7);
+   
+   width: 50;
+   height: 50;
+   
+   font-size: 25;
+   margin: 2;
+   border-radius: 20px;
+   cursor: pointer;
+   color: white;
+   box-shadow: 1px 1px 1px 1px rgb(255, 255, 255);
+   border-color: rgba(255, 255, 255, 0.4);
+/* cursor: pointer makes you able to click on it */
+}
+
+.textview {
+   width: 230;
+   margin: 2;
+   
+   font-size: 25;
+   padding: 5;
+   border-radius: 20px;
+   background-color: rgba(255, 255, 255, 0.3);
+
+   color: black;
+}
+
+.main {
+   position: absolute;
+   top: 50%;
+
+   left: 50%;
+   transform: translateX(-50%) translateY(-50%);
+
+   background-color: rgba(255, 255, 255, 0.3);
+   border-radius: 15px;
+
+   border-color: white;
+
+   padding-top: 15px;
+   padding-right: 10px;
+   padding-bottom: 10px;
+   padding-left: 10px;
+}
