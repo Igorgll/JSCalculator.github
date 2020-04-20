@@ -2,25 +2,26 @@ body {
    margin: 0;
    padding: 0;
 
-   background-color: rgb(107, 159, 165);
+   background-image: url(https://studyqa.com/media/upload/articles/images/Pure-mathematics-formul%C3%A6-blackboard%5B1%5D.jpg);
 }
 
 /*To access the class we insert a dot (.) */
 
-.button {
-   background-color: rgba(107, 159, 148, 0.7);
+.main {
+   position: absolute;
+   top: 50%;
+   left: 50%;
    
-   width: 50;
-   height: 50;
-   
-   font-size: 25;
-   margin: 2;
-   border-radius: 20px;
-   cursor: pointer;
-   color: white;
-   box-shadow: 1px 1px 1px 1px rgb(255, 255, 255);
-   border-color: rgba(255, 255, 255, 0.4);
-/* cursor: pointer makes you able to click on it */
+   transform: translateX(-50%) translateY(-50%);
+
+   border-radius: 15px;
+   background-color: rgba(50, 39, 102, 0.4);
+
+
+   padding-top: 20px;
+   padding-right: 12px;
+   padding-bottom: 20px;
+   padding-left: 12px;
 }
 
 .textview {
@@ -28,27 +29,38 @@ body {
    margin: 2;
    
    font-size: 25;
-   padding: 5;
-   border-radius: 20px;
-   background-color: rgba(255, 255, 255, 0.3);
-
-   color: black;
-}
-
-.main {
-   position: absolute;
-   top: 50%;
-
-   left: 50%;
-   transform: translateX(-50%) translateY(-50%);
-
-   background-color: rgba(255, 255, 255, 0.3);
-   border-radius: 15px;
-
-   border-color: white;
-
-   padding-top: 15px;
+   
+   padding-top: 3px;
    padding-right: 10px;
-   padding-bottom: 10px;
+   padding-bottom: 15px;
    padding-left: 10px;
+
+   
+   border-color: white;
+   border-width: 1.6px;
+   border-radius: 20px;
+   background-color: rgb(3, 1, 4);
+
+   color: white;   
 }
+
+.button {
+   padding: 1px 0px 1px 0px;
+   background-color: rgb(0, 65, 94);
+   
+   width: 50;
+   height: 50;
+   
+   font-size: 25;
+   margin: 2;
+   
+   border-radius: 20px;
+   border-color: white;
+   border-width: 1.3px;
+   
+   cursor: pointer;
+   
+   color: white;
+/* cursor: pointer makes you able to click on it */
+}
+
